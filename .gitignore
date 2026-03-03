@@ -1,0 +1,5 @@
+venv/
+data/
+*.npy
+*.index
+__pycache__/
