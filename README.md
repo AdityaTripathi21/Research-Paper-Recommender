@@ -1,6 +1,6 @@
 # 📄 Research Recommender
 
-A local RAG (Retrieval-Augmented Generation) pipeline that semantically searches 10,000 arXiv paper abstracts and uses a local LLM to answer research questions — no API keys required.
+A local RAG (Retrieval-Augmented Generation) pipeline that semantically searches 800,000 arXiv paper abstracts and uses a local LLM to answer research questions — no API keys required.
 
 ---
 
@@ -110,7 +110,6 @@ Re-run `embed()` and `faiss_index()` if you:
 
 - [ ] Similarity scores displayed alongside results
 - [ ] Year range filter in sidebar
-- [ ] Scale to 50k–100k papers
 - [ ] Cross-encoder reranking
 - [ ] Hybrid BM25 + semantic search
 - [ ] Conversation memory for follow-up questions
